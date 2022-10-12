@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "News app free article",
+      "free": true,
+      "author": "James Waters",
+      "type": "article",
+      "content": "The Ruby floating production, storage and offloading vessel destined for the Reliance Industries-operated deep-water MJ gas condensate development offshore India has been involved in a collision with an accommodating barge, causing minor damage to the FPSO.\n\nIndian private sector giant Reliance confirmed the incident to Upstream on Friday and noted that “there was no personnel injury and there is no impact on the overall project schedule and commissioning” for the Krishna Godavari basin field develeopment.\n\n“Due to rough weather, the gangway from the accommodation barge Nor Goliath got lifted and made contact with the staircase on the FPSO causing minor damage to the stairs,” a Reliance spokesperson said. The spokesperson added that the Nor Goliath “pulled away along with the gangway”, and the gangway was inspected after being secured back on the barge."
+    },
+    {
+      "id": 2,
+      "title": "News app paid article",
+      "free": false,
+      "author": "James Waters",
+      "type": "article",
+      "content": "Swedish police said on Thursday that a crime scene investigation into damage at the Nord Stream 1 and 2 gas pipelines in the Baltic Sea has now been completed, with suspicions raised of “serious sabotage” from detonations.\n\nSwedish and Danish authorities have been probing four leaks from the trans-Baltic pipelines discovered in Sweden’s and Denmark’s exclusive economic zones."
+    }
+  ]
+}
