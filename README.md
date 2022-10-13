@@ -33,8 +33,8 @@ Requirements for The News App:
 * The content for the 3 pages should be fetched from the API
 * There should be a routing mechanism so that it is easy to navigate between the pages
 * The Frontpage and the Free Article is marked as free and can therefore be displayed without limitations
-* the Paid Article is not free, and shall therefore only display the first 20 words of its article content
-* the Paid Article should have a button overlaying the article with a text similar to "Read the entire article for free by clicking here"
+* The Paid Article is not free, and shall therefore only display the first 20 words of its article content
+* The Paid Article should have a button overlaying the article with a text similar to "Read the entire article for free by clicking here"
 * When clicking the button the user will get access to all the content within the Paid Article.
 
 ## Test coverage
