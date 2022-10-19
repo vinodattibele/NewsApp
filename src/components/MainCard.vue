@@ -11,7 +11,7 @@
       ></p>
       <p class="card-text" v-else v-html="cardDetails.content"></p>
       <i class="page-item" v-if="!cardDetails.free && !freeAccess">
-        <a href="#" v-on:click="freeAccess = true">
+        <a href="#" v-on:click="freeAccess = true" class="paid-article">
           Read the entire article for free by clicking here
         </a>
       </i>

@@ -1,5 +1,5 @@
 <template>
-  <div v-if="showLoader" class="spinner-border text-primary" role="status">
+  <div v-if="showLoader" class="spinner-border text-primary" id="spinner" role="status">
     <span class="sr-only"></span>
   </div>
 </template>
