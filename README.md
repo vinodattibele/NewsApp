@@ -26,8 +26,11 @@ The main task is to create a small news app that consists of a frontpage and two
 * Free Article
 * Paid Article  
 
-The content for these resources are found via a json API server.  
-The API is documented here: https://github.com/nhst/the-news-app-db
+The app uses a local mock API in `src/Utils/MockApi.js`, backed by
+`src/data/mock-db.json`. It provides `/api/db`, `/api/frontpage`, and
+`/api/articles` (including individual article routes), so the app can run
+without an external API server. Update the mock database to change the sample
+content.
 
 Requirements for The News App:
 * The content for the 3 pages should be fetched from the API
