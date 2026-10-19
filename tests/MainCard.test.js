@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { mount } from "@vue/test-utils";
-import testdata from './db.json';
+import testdata from '../src/data/mock-db.json';
 import MainCard from '../src/components/MainCard.vue';
 
 describe("MainCard.vue", () => {

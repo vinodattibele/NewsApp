@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { mount } from "@vue/test-utils";
-import testdata from './db.json';
+import testdata from '../src/data/mock-db.json';
 import ArticlesList from '../src/components/ArticlesList.vue';
 
 describe("ArticlesList.vue", () => {

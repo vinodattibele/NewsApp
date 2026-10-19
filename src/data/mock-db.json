@@ -1,4 +1,12 @@
 {
+  "frontpage": {
+    "id": 0,
+    "title": "Welcome to The News App",
+    "free": true,
+    "author": "News Desk",
+    "type": "frontpage",
+    "content": "The latest news and analysis, with a free article and a preview of our featured story."
+  },
   "articles": [
     {
       "id": 1,

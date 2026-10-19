@@ -16,6 +16,7 @@ import MainCard from "../components/MainCard.vue";
 import ArticlesList from "../components/ArticlesList.vue";
 import Loader from "../components/Loader.vue";
 import URL from "../Utils/Constants";
+import { getMockApiData } from "../Utils/MockApi";
 
 export default {
   components: {
@@ -37,8 +38,7 @@ export default {
     },
     async fetchNewsById(id) {
       this.showloader = true;
-      await fetch(new Request(URL.URL.ALL_ARTICLES + "/" + id))
-        .then((resp) => resp.json())
+      await getMockApiData(URL.URL.ALL_ARTICLES + "/" + id)
         .then((data) => {
           this.frontPage = data;
           this.showloader = false;
@@ -50,8 +50,7 @@ export default {
     
     async fetchTopFreeNews() {
       this.resetData();
-      await fetch(new Request(URL.URL.FREE_ARTICLES))
-        .then((resp) => resp.json())
+      await getMockApiData(URL.URL.FREE_ARTICLES)
         .then((data) => {
           this.frontPage = data;
           this.articles.push(data);
